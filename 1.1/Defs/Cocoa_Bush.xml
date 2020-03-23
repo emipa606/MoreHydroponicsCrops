@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="PlantBase">
+		<defName>Plant_CocoaBush</defName>
+		<label>cocoa bush</label>
+		<description>A geneticaly modified strawberry plant. Grows cocoa beans instead of strawberries.</description>
+		<statBases>
+			<MaxHitPoints>85</MaxHitPoints>
+			<Nutrition>0.2</Nutrition>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Plants/CocoaBush</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<selectable>true</selectable>
+		<pathCost>10</pathCost>
+		<ingestible>
+			<preferability>RawBad</preferability>
+		</ingestible>
+		<plant>
+			<growDays>8</growDays>
+			<dieIfLeafless>true</dieIfLeafless>
+			<harvestTag>Standard</harvestTag>
+			<harvestedThingDef>Chocolate</harvestedThingDef>
+			<harvestYield>12</harvestYield>
+			<sowMinSkill>6</sowMinSkill>
+			<sowTags>
+				<li>Ground</li>
+				<li>Hydroponic</li>
+			</sowTags>
+			<sowResearchPrerequisites>
+				<li>Cocoa</li>
+			</sowResearchPrerequisites>
+			<topWindExposure>0.1</topWindExposure>
+			<immatureGraphicPath>Things/Plants/CocoaBush_Immature</immatureGraphicPath>
+			<visualSizeRange>0.3~1.05</visualSizeRange>
+			<wildOrder>2</wildOrder>
+			<purpose>Food</purpose>
+		</plant>
+	</ThingDef>
+</Defs>
