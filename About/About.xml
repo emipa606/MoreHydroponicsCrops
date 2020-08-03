@@ -1,16 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>More Hydroponics Crops (Continued)</name> 
-  	<packageId>Mlie.MoreHydroponicsCrops</packageId>
-	<author>Mlie</author>
-	<url>https://github.com/emipa606/MoreHydroponicsCrops</url>
-	<supportedVersions>
-		<li>1.0</li>
-		<li>1.1</li>
-	</supportedVersions>
-	<modDependencies />
-	<loadAfter />
-	<description>Update of Wa Ges mod for RimWorld 1.1
+  <name>More Hydroponics Crops (Continued)</name>
+  <packageId>Mlie.MoreHydroponicsCrops</packageId>
+  <author>Mlie</author>
+  <url>https://github.com/emipa606/MoreHydroponicsCrops</url>
+  <supportedVersions>
+    <li>1.0</li>
+    <li>1.1</li>
+    <li>1.2</li>
+  </supportedVersions>
+  <modDependencies />
+  <loadAfter />
+  <description>Update of Wa Ges mod for RimWorld 1.1
 https://steamcommunity.com/sharedfiles/filedetails/?id=1685020834
 
 [img]https://raw.githubusercontent.com/emipa606/RimWorld-Wrapper/master/Notice.png[/img]
